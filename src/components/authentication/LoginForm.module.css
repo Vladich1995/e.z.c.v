@@ -1,0 +1,45 @@
+* {
+ margin:0px;
+ padding:0px;
+}
+
+.container{
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-style: solid;
+  border-width: 1px;
+}
+
+#userDiv, #passDiv, #signin, #create, #forgot, #guest{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#userDiv{
+  top: 100px;
+}
+
+#passDiv{
+  top: 150px;
+}
+
+#signin{
+  top: 200px;
+}
+
+#create{
+  top: 250px;
+}
+
+#forgot{
+  top: 300px;
+}
+
+#guest{
+  top: 350px;
+}

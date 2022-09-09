@@ -1,0 +1,54 @@
+* {
+ margin:0px;
+ padding:0px;
+}
+
+.container{
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-style: solid;
+  border-width: 1px;
+}
+
+#userDiv, #emailDiv, #confEmailDiv, #passDiv, #confPassDiv{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#cancel, #signUp{
+  position: absolute;
+  top: 350px;
+}
+
+#userDiv{
+  top: 100px;
+}
+
+#emailDiv{
+  top: 150px;
+}
+
+#confEmailDiv{
+  top: 200px;
+}
+
+#passDiv{
+  top: 250px;
+}
+
+#confPassDiv{
+  top: 300px;
+}
+
+#cancel{
+  left: 150px;
+}
+
+#signUp{
+  left: 400px;
+}
